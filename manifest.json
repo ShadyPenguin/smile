@@ -4,11 +4,11 @@
     "description": "Build an Extension!",
     "permissions": ["activeTab"],
     "content_scripts": [
-			{
-			  "matches": ["https://www.amazon.com/*"],
-			  "run_at": "document_start",
+      {
+        "matches": ["https://www.amazon.com/*"],
+        "run_at": "document_start",
         "js": ["main.js"]
       }
-		],
+    ],
     "manifest_version": 2
   }

@@ -1,2 +1,2 @@
 # Smile
-Prepends `smile.` to each amazon.com/ page you visit
+On document start, redirect from www.amazon.com to smile.amazon.com
